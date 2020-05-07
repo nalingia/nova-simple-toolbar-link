@@ -8,10 +8,10 @@ use Laravel\Nova\Tool;
 class SimpleToolbarLink extends Tool
 {
 
-    protected ?string $name = null;
-    protected ?string $href = null;
-    protected ?string $icon = null;
-    protected ?string $target = null;
+    protected $name = null;
+    protected $href = null;
+    protected $icon = null;
+    protected $target = null;
 
     /**
      * Perform any tasks that need to happen when the tool is booted.
